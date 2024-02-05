@@ -8,10 +8,12 @@ a{
 li{
     list-style: none;
 }
-
-
+body{
+    background-color: #F4F4F4;
+}
+/* header */
 #header{
-
+    background-color: #fff;
     position: relative;
     padding: 20px;
 }
@@ -29,7 +31,9 @@ li{
     font-size: 20px;
     padding: 10px 0;
 }
-#lower_header{}
+#lower_header{
+    background-color: #fff;
+}
 #lower_header .flex{
     display: flex;
     justify-content: center;
@@ -43,3 +47,20 @@ li{
 #lower_header .flex_content:hover{
     border-top: 5px solid #18B8E1;
 }
+#lower_header a {
+    color: #000;
+}
+/* header  */
+/* section_01 */
+
+#section_01{}
+#section_01 .grid{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+#section_01 .gird_content{}
+#section_01 .gird .content_02{
+    background-color: #000;
+}
+
+/* section_01 */
