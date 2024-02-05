@@ -15,7 +15,8 @@ body{
 #header{
     background-color: #fff;
     position: relative;
-    padding: 20px;
+    padding: 0px 20px;
+    padding-bottom: 3px;
 }
 #header::after{
     position: absolute;
@@ -53,14 +54,23 @@ body{
 /* header  */
 /* section_01 */
 
-#section_01{}
+#section_01{
+    margin: 0 80px; 
+}
 #section_01 .grid{
     display: grid;
     grid-template-columns: 50% 50%;
+    align-items: center;
 }
 #section_01 .gird_content{}
 #section_01 .gird .content_02{
     background-color: #000;
 }
-
+#section_01 img{
+    width: 100%;
+}
+#section_01 h1 {
+    text-align: right;
+    font-size: 50px;
+}
 /* section_01 */
