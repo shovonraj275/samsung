@@ -17,6 +17,9 @@ body{
     position: relative;
     padding: 0px 20px;
     padding-bottom: 3px;
+    position: sticky;
+    top: 0;
+    z-index: 999;
 }
 #header::after{
     position: absolute;
@@ -230,8 +233,7 @@ grid-column: 2;
     margin: 50px 0;
 }
 .prar_03{
-    margin-bottom: 20
-    ;
+    margin-bottom: 20;
 }
 
 /* #grid_section_03 */
@@ -243,5 +245,34 @@ grid-column: 2;
     font-size: 30px;
     border: 1px solid #000;
     border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
+/* #container{} */
+#container{
+    background-color: #fff;
+    margin: 120px;
+}
+.vido{
+    padding: 0 80px;
+}
+.heading_stat{
+    padding: 20px 80px;
+}
+.heading_class{
+    font-size: 80px;
+    margin-left: 160px;
+}
+.para_01{
+    margin: 60px 0px 10px 160px;
+    color: gray;
     
 }
+.para_02{
+    margin: 20px 0px 100px 160px;
+    color: gray;
+}
+#container img{
+    width: 100%;
+}
+/* #container{} */
