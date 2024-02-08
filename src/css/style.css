@@ -82,7 +82,7 @@ body {
 /* section_01 */
 
 #section_01 {
-    margin: 0 80px;
+    margin: 0 8%;
 }
 
 #section_01 .grid {
@@ -305,6 +305,7 @@ body {
 /* #container{} */
 #container {
     background-color: #fff;
+    margin:  5% 8%;
 }
 
 .vido {
@@ -364,6 +365,7 @@ body {
 /* natuer */
 #natuer{
     background-color: #fff;
+    margin: 0 8%;
 }
 #natuer .grid{
     display: grid;
@@ -385,6 +387,7 @@ body {
 #view_phone{
     padding: 4% 10%;
     background-color: #fff;
+    margin: 0% 8%;
 }
 #view_phone .grid{
     display: grid;
@@ -408,6 +411,7 @@ body {
 #BG_IMG{
     padding: 3% 14%;
     background-color: #fff;
+    margin: 0% 8%;
 }
 .img_por{
     position: relative;
@@ -449,6 +453,7 @@ body {
 #futeres{ 
     padding: 6% 15%;
     background-color: #ffff;
+    margin: 0% 8%;
 }
 #futeres .grid{
     display: grid;
@@ -483,6 +488,7 @@ body {
 #selfie{
         background: #fff;
         padding: 4% 15%;
+        margin: 0% 8%;
 }
 #selfie h1{
     font-size: 59px;
@@ -516,10 +522,12 @@ svg {
 #reused{
     background-color: #fff;
     padding: 3% 10%;
+    margin: 0% 8%;
 }
 #reused .grid{
     display: grid;
     grid-template-columns: 50% 50%;
+    margin: 5% 0;
 }
 #reused .grid_content{
 
@@ -542,5 +550,110 @@ svg {
     margin: 0;
 }
 #reused video {
-    border-radius: 10%;
+    border-radius: 10px;
 }
+
+#bg_color{
+    margin: 0% 8% ;
+    background: #fff;
+    padding:  0 15% 8% 15%;
+}
+#bg_color .grid{
+    display: grid;
+    grid-template-columns: 30% 60%;
+    align-items: center;
+    justify-content: center;
+    background: #f7f7f7;
+    border-radius: 20px;
+}
+#bg_color h1{
+    margin-top: 5%;
+}
+#bg_color .para_01,
+#bg_color .para_02{
+    margin: 2% 0;
+}
+#viedo_reused{
+    margin: 2% 8%;
+    background-color: #ECE8DF;
+    padding: 3%;
+   
+}
+#viedo_reused img {
+    width: 100%;
+    border-radius: 30px;
+}
+#viedo_reused h1.video_para{
+    padding-left: 5%;
+    font-size: 60px;
+    padding-bottom: 5%;;
+}
+#viedo_reused p.video_para{
+    padding-left: 5%;
+    font-size: 18px;
+    padding-bottom: 10%;;
+}
+#viedo_reused .video_grid{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 10px;
+    align-content: center;
+    margin-top: 2%;
+}
+#viedo_reused .video_grid_content{
+
+}
+#viedo_reused .para_content{
+    margin-top: 10%;
+    font-size: 20px;
+    color: #000;
+    
+}
+.para_content_ml{
+    margin-left: 5%;
+}
+#viedo_reused video {
+    border-radius: 20px;
+}
+.color_gray{
+    color: gray;
+}
+.content_heading{
+    margin: 0;
+    font-size: 50px;
+    margin-top: 8%;
+}
+.para_margin{
+    margin: 5% 0;
+    color: gray;
+}
+.color{
+    color: #7CB8B9;
+}
+p.color::after{
+    content: ">" ;
+}
+
+/* responsive */
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575px) {
+    #section_01 .grid {
+        grid-template-columns: auto;
+    }
+}
+  
+  /* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {}
+  
+  /* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {}
+  
+  /* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {}
+  
+  /* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {}
+  
+
+/* responsive */
