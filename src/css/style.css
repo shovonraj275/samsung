@@ -1006,6 +1006,10 @@ font-size: 30px;
     #crad .grid {
         grid-template-columns: 100%;
     }
+    #ditels .sub_grid {
+        grid-template-columns: 100%;
+        gap: 15px;
+    }
 }
   /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) {}
