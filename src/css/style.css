@@ -729,7 +729,19 @@ p.color::after{
         margin: 10% 0;
     }
     .content_por {
+        position: relative;
+        padding-bottom: 41px;
+    }
+    .content_poa {
+        position: relative;
+        bottom: 0;
+        right: 0;
         
+        margin: 2% 8%;
+    }
+    #container img {
+        width: 70%;
+        padding: 20px 40px;
     }
     #natuer .grid {
         grid-template-columns: auto ;
@@ -744,7 +756,12 @@ p.color::after{
         height: auto;
         border-radius: 15px;
     }
-    
+    #futeres .sub_grid {
+        display: grid;
+        grid-template-columns: 100%;
+        align-items: center;
+        font-size: 20px;
+    }
     .content_right {
         position: relative;
     }
@@ -756,7 +773,7 @@ p.color::after{
     #BG_IMG {
         padding: 3% 6%;
         background-color: #fff;
-        margin: 0% 5%;
+        margin: 0% 8%;
     }
     #BG_IMG img {
         width: 100%;
@@ -766,7 +783,7 @@ p.color::after{
     #futeres {
         padding: 6% 5%;
         background-color: #ffff;
-        margin: 0 5%;
+        margin: 0 8%;
     }
     #futeres .grid {
         grid-template-columns: auto;
@@ -855,6 +872,12 @@ p.color::after{
         margin: 0;
         font-size: 30px;
         margin-top: 8%;
+    }
+    #viedo_reused {
+        margin: 7% 8%;
+        background-color: #ECE8DF;
+        padding: 3%;
+        border-radius: 25px;
     }
 }
   /* Small devices (landscape phones, 576px and up) */
