@@ -31,7 +31,6 @@ body {
 #header {
     background-color: #fff;
     position: relative;
-    padding: 0px 20px;
     padding-bottom: 3px;
     position: sticky;
     top: 0;
@@ -41,7 +40,7 @@ body {
 #header::after {
     position: absolute;
     content: "";
-    width: 95%;
+    width: 99%;
     height: 2px;
     background-color: #ccc8c8;
 
@@ -51,7 +50,7 @@ body {
     display: flex;
     justify-content: space-between;
     font-size: 20px;
-    padding: 10px 0;
+    padding: 10px 20px;
 }
 
 #lower_header {
@@ -465,7 +464,7 @@ font-size: 30px;
     background-color: #ffff;
     margin: 0% 8%;
     border-end-start-radius: 42px;
-    border-end-end-radius: 40px;-
+    border-end-end-radius: 40px;
 }
 #futeres .grid{
     display: grid;
@@ -474,7 +473,7 @@ font-size: 30px;
 }
 #futeres .grid_contet{
     background-color: #F6F6F6;
-    border-radius: 15%;
+    border-radius: 25px;
 }
 #futeres .sub_grid{
     display: grid;
@@ -750,6 +749,23 @@ font-size: 30px;
 .para_margin{
 
 }
+#copyright{
+    padding: 2% 15%;
+    background: #000;
+    color: #fff;
+    text-transform: capitalize;
+}
+#copyright .grid {
+   display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between; 
+}
+#copyright a {
+    color: #ffd;
+    text-decoration: underline;
+    font-weight: bolder;
+}
+
 /* responsive */
 
 /* Extra small devices (portrait phones, less than 576px) */
@@ -1014,6 +1030,11 @@ font-size: 30px;
         grid-template-columns: 100%;
         gap: 15px;
     }
+#copyright .grid {
+    grid-template-columns: auto;
+}
+
+
 }
   /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) {}
